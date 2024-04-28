@@ -8,9 +8,22 @@
 * Added separate options to enable nameplates and headline view for all minion types (totems, guardians, and pets together).
 * Added support for the minimap addon compartment.
 * Improved handling of nameplates for game objects (like herbs or portals) when soft-targeting is enabled [GH-431].
-* Custom color for Name text now also supports transparency [Comment #6829]. 
+* Custom color for Name text now also supports transparency [Comment #6829].
 * Updated the logo for Threat Plates which is now also shown as icon in the addon list.
 * Upgrade integrated libraries (Ace3 r1328-alpha, LibDualSpec v1.22.4).
+
+------------------------------------------------------
+11.1.44 (2024-04-13)
+------------------------------------------------------
+* Fixed a Lua error that occured because of a missing line in the library loading code [GH-510].
+
+------------------------------------------------------
+11.1.43 (2024-04-13)
+------------------------------------------------------
+* Fixed an bug with LibDualSpec being loaded twice in WoW Remix: Mists of Pandaria.
+* Upgrade integrated libraries (LibDualSpec v1.22.3).
+* Updated TOC version for Classic Patch 1.15.2.
+* Updated TOC version for Wrath Classic Patch 3.4.3.
 
 ------------------------------------------------------
 11.1.42 (2024-04-01)
@@ -32,7 +45,7 @@
 ------------------------------------------------------
 11.1.39 (2024-02-26)
 ------------------------------------------------------
-* Upgraded integrated library Ace3 r1320 to fix an issue with the color picker [Comment #7208]. 
+* Upgraded integrated library Ace3 r1320 to fix an issue with the color picker [Comment #7208].
 
 ------------------------------------------------------
 11.1.38 (2024-02-09)
@@ -261,7 +274,7 @@
 ------------------------------------------------------
 11.1.0 (2022-11-14)
 ------------------------------------------------------
-* Added support for new Evoker class. 
+* Added support for new Evoker class.
 * Updated class icons - added Evoker class, added new styles for all classes, and increased the resolution of class icons.
 * Fixed a Lua error in the options that occured when resetting reaction colors to default values.
 * Fixed a Lua error that occured when using Priest's Mindcontrol in PvP [GH-364, Issue #584, #586, #587].
@@ -275,7 +288,7 @@
 ------------------------------------------------------
 11.0.5 (2022-11-02)
 ------------------------------------------------------
-* Added support for new Evoker class. 
+* Added support for new Evoker class.
 * Updated class icons - added Evoker class, added new styles for all classes, and increased the resolution of class icons.
 
 ------------------------------------------------------
@@ -382,7 +395,7 @@
 * Added additional icons as indicator for elite and rare mobs [GH-330, IM] (thanks to lizardo221).
 * Added Venthry Covenant Ability Agent of Chaos to the Auras widget as CC aura [Issue #548].
 * Fixed a bug where Frostbite was not classified as CC aura [Issue #547].
-* Integrated new UNIT_AURA processing optimizations to improve unit aura processing in encounters where many nameplates are on screen at once [Comment #6114]. 
+* Integrated new UNIT_AURA processing optimizations to improve unit aura processing in encounters where many nameplates are on screen at once [Comment #6114].
 * Upgrade integrated libraries (Ace3 r1259).
 
 ------------------------------------------------------
@@ -400,7 +413,7 @@
 ------------------------------------------------------
 10.3.6 (2022-05-08)
 ------------------------------------------------------
-* Added options to configure in detail when to show the threat value (e.g., when a pet is active) [Comment #6154, Issue #536]. 
+* Added options to configure in detail when to show the threat value (e.g., when a pet is active) [Comment #6154, Issue #536].
 * Fixed a bug where players or non-totem player-controlled units were shown as totems if their name was the same as a player totem's name [Comment #6146].
 * Fixed a bug where changing the colum and row limits of aura areas only took effect after reloading the UI [Comment #6169].
 * Fixed a bug with Lightning Lasso from Shamans not being recognized as CC aura [Comment #6182, Issue #541].
@@ -427,7 +440,7 @@
 ------------------------------------------------------
 10.3.2 (2022-02-27)
 ------------------------------------------------------
-* Fixed a Lua error with Scaled and Raw Percentage threat value the occured when in combat with units, but not being on their threat table [Comment #6019]. 
+* Fixed a Lua error with Scaled and Raw Percentage threat value the occured when in combat with units, but not being on their threat table [Comment #6019].
 
 ------------------------------------------------------
 10.3.1 (2022-02-25)
@@ -445,7 +458,7 @@
 * Added an option to show threat value only when in groups [Comment #4835].
 * Added an option to abbreviate unit names in healthbar view [GH-284, GH-270].
 * Added an option to transliterate cyrillic letters in unit names and status texts [GH-300].
-* Added an option limit text length and/or wrap text for cast target and target of target names [Comment #5070, #4816], 
+* Added an option limit text length and/or wrap text for cast target and target of target names [Comment #5070, #4816],
 * Added an option to show target of target only when it's not the player [Comment #4844].
 * Added an option to enable Aura trigger for custom styles only for your own auras [Comment #4941, PM].
 * Fixed a bug where the chat command for enabling scripting was not working and as well as the error messsage for unknown commands was not properly shown.
@@ -506,7 +519,7 @@
 10.2.5 (2021-07-02)
 ------------------------------------------------------
 * Fixed a Lua error that occurred when the personal nameplate was enabled and the player entered combat [Issue #495, Comment #5709, #5704].
-* Fixed a typo in TOC file which caused the addon version not being set correctly. 
+* Fixed a typo in TOC file which caused the addon version not being set correctly.
 
 ------------------------------------------------------
 10.2.4 (2021-06-29)
@@ -1351,7 +1364,7 @@
 * Reduced disabling of options based on other settings in the options dialog.
 * Removed anchoring options as positioning is based was never based on actual healthbar anyways (but some internal frame). Also, improved consistence for size/scale options.
 * Improved consistency for coloring, scaling and opacity between healthbar and headline view, totems and custom nameplates.
-* Reworked healthbar coloring and fixed several errors. 
+* Reworked healthbar coloring and fixed several errors.
 * Fixed a bug with Blizzard nameplates reappearing in certain situations.
 * Fixed a bug with custom nameplates not using the correct scaling and opacity when "Disable Custom Scale/Alpha" was enabled.
 * Fixed a bug which prevented the personal resources bar from showing up when Threat Plates was enabled. [Comment #402].

@@ -1,3 +1,3 @@
 # @project-version@ (@build-time@)
 
-* Fixed wrong spell ID for Landslide (Evoker) so that it is shown as CC aura [Comment #7238].
+The migration function for SetJustifyV was not applied when using new beta versions. Also, updated the dropdown values for vertical alignment.

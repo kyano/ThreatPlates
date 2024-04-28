@@ -502,4 +502,3 @@ if IsLoggedIn() then
 else
 	lib.eventFrame:RegisterEvent("PLAYER_LOGIN")
 end
-
